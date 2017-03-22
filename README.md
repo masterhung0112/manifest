@@ -1,0 +1,2 @@
+# manifest
+Hdroid manifest
