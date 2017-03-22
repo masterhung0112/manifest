@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="x86" fetch="." />
-  <project path="build"  group="pdk" remote="x86" revision="marshmallow-x86">
+  <remote name="x86" fetch=".." />
+  <default revision="master" remote="origin" />
+
+  <project path="build" name="platform/build" group="pdk" remote="x86" revision="origin">
 
   </project>
 </manifest>
